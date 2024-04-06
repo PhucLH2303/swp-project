@@ -1,0 +1,48 @@
+/* BannerCarousel.css */
+
+.banner-container {
+  position: relative;
+  width: 50%;
+  height: 50%;
+  margin-top: 20px;
+  margin-left: 300px;
+  overflow: hidden; /* Ẩn phần dư thừa */
+}
+
+.banners {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.banners img {
+  width: 100%;
+  height: auto;
+}
+/* BannerCarousel.css */
+
+/* Thêm đoạn CSS cho hai nút chuyển hình */
+.arrow-btn-left,
+.arrow-btn-right {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.arrow-btn-left {
+  left: 10px; /* Điều chỉnh vị trí bên trái */
+}
+
+.arrow-btn-right {
+  right: 10px; /* Điều chỉnh vị trí bên phải */
+}
+
+.arrow-btn-left:hover,
+.arrow-btn-right:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+}

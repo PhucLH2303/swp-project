@@ -1,0 +1,70 @@
+/* Thiết lập font và màu chung */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* Thiết lập các màu nền và viền cho các phần tử */
+.section_find_project {
+    background-image: linear-gradient(to left, red, yellow);
+    padding: 50px 0;
+    margin-bottom: 50px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+form {
+    width: 100%;
+}
+
+.wrap_find {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* Thiết lập định dạng cho các select và input */
+select,
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Thiết lập style cho nút tìm kiếm */
+.btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/* Thiết lập style cho tiêu đề */
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #007bff;
+}
+
+/* Thiết lập style cho các label */
+label {
+    font-weight: bold;
+    margin-bottom: 10px;
+}

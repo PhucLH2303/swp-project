@@ -1,0 +1,53 @@
+/* styles.css */
+
+/* Tạo hiệu ứng màu sắc khi di chuột vào */
+.single-box-item:hover {
+    background-color: orange;
+    transition: background-color 0.3s ease;
+}
+
+.row {
+    margin-left: 220px;
+}
+/* Đảm bảo các box cân đối trái-phải */
+.single-box-item {
+    position: relative;
+    overflow: hidden; /* Ẩn nội dung bên ngoài phạm vi box */
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+
+/* Căn chỉnh icon và nội dung */
+.single-box-item .icon {
+    text-align: center;
+    margin-bottom: 15px; /* Thêm khoảng cách giữa icon và tiêu đề */
+}
+
+.single-box-item .icon img {
+    width: 80px;
+    height: 80px;
+}
+
+.single-box-item h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.single-box-item p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.single-box-item .pro-more {
+    display: block;
+    text-align: right;
+    color: #007bff;
+    font-weight: bold;
+}

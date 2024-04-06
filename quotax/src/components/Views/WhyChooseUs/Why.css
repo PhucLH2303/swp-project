@@ -1,0 +1,97 @@
+
+.section_why {
+  padding: 50px 0;
+  background-color: #f9f9f9;
+}
+
+.section_why .container {
+  display: flex;
+  align-items: center;
+}
+
+.section_why img {
+  max-width: 100%;
+  margin-right: 20px;
+}
+
+.section_why .about-content {
+  padding: 0 30px;
+}
+
+.section_why h3 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.section_why h3::after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 50px; /* Chiều dài của đường ngang */
+  height: 3px; /* Độ dày của đường ngang */
+  background-color: orange; /* Màu cam */
+}
+
+
+.section_why p {
+  font-size: 16px;
+  color: orange;
+  margin-bottom: 20px;
+}
+
+.section_why ul {
+  list-style: none;
+  padding: 0;
+}
+
+.section_why li {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #666;
+}
+
+/* Thêm phần tử mới */
+.why-item-elementor {
+  background-color: #fff;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.why-item-elementor h3 {
+  font-size: 24px;
+  color: #333;
+}
+
+.why-item-elementor p {
+  font-size: 16px;
+  color: #666;
+}
+
+/* Thêm icon trước mỗi li */
+.section_why .why-list {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .section_why .why-item {
+    padding-left: 30px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .section_why .why-item:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    background-image: url(https://dv02.mediawz.com/wp-content/themes/halink.DV02/dev/enqueue/css/images/cleanza_about_icon.svg); /* Đường dẫn đến file SVG */
+  }

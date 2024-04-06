@@ -1,0 +1,54 @@
+/* Footer.css */
+.footer {
+  background-color: #232627;
+  color: #fff;
+  padding: 1px 0;
+  margin-top: 200px;
+  /* Giảm giảm padding để giảm kích thước */
+}
+
+.footer h5 {
+  color: #64a6ed;
+  font-size: 30px;
+}
+
+.footer p {
+  font-size: 14px;
+}
+
+.footer a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.footer-col {
+  padding-top: 10px;
+
+  /* Giảm khoảng cách giữa cột */
+}
+
+.social-icons {
+  display: flex;
+}
+
+.social-icons .icon {
+  margin-right: 10px;
+  /* Giảm khoảng cách giữa các biểu tượng mạng xã hội */
+  font-size: 18px;
+  /* Giảm kích thước của biểu tượng mạng xã hội */
+  color: #fff;
+}
+
+.footer-bottom {
+  margin-top: 10px;
+  /* Giảm khoảng cách trên cùng */
+  padding-top: 5px;
+  /* Giảm padding trên cùng */
+  border-top: 1px solid #555;
+  color: #888;
+  text-align: center;
+}

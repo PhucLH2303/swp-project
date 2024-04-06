@@ -1,0 +1,33 @@
+.container-raw-building {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.title {
+  color: #333;
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.content-raw-building {
+  color: #666;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.li-item {
+  list-style-type: disc;
+  color: #333;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-left: 20px;
+}

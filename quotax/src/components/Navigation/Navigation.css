@@ -1,0 +1,24 @@
+/* Updated CSS for a better-looking navbar */
+.navbar {
+    background-color: #333;
+    /* Set the background color for the navbar */
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+.navbar-nav .nav-link {
+    margin-right: 10px;
+    /* Adjust the right margin as needed */
+    font-weight: bolder;
+    color: #942d2d;
+    /* Set the text color to white */
+}
+
+.navbar-nav .nav-link:hover {
+    background-color: #4c4545;
+    /* Set the background color on hover */
+    color: #fff;
+    /* Set the text color to white on hover */
+}

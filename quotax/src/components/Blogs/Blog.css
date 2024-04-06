@@ -1,0 +1,141 @@
+/* CSS cho Blog */
+.blog-container {
+  margin: 30px auto;
+  max-width: 1200px;
+  /* Giới hạn chiều rộng của container */
+  padding: 0 20px;
+}
+
+.blog-title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 32px;
+  color: #c0392b;
+}
+
+.search-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.search-container input[type="text"] {
+  width: 60%;
+  /* Điều chỉnh chiều rộng của input */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.search-blog-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.blog-list {
+  list-style: none;
+  padding-left: 60px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit,
+      minmax(250px, 1fr));
+  /* Dãn các item theo kích thước của container */
+  grid-gap: 20px;
+}
+
+.blog-item {
+  border: 1px #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.blog-item:hover {
+  transform: translateY(-5px);
+}
+
+.blog-img {
+  width: 70%;
+  height: auto;
+  border-radius: 8px 8px 0 0;
+  /* Bo tròn góc trên của hình ảnh */
+}
+
+.blog-post-title {
+  font-size: 20px;
+  margin: 10px;
+  text-align: center;
+  color: rgb(193, 46, 46);
+  padding-right: 70px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.page-item {
+  margin: 0 5px;
+  list-style: none;
+  cursor: pointer;
+}
+
+.page-link {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.active {
+  font-weight: bold;
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+  .blog-list {
+    grid-template-columns: repeat(2,
+        1fr);
+    /* Hiển thị 2 cột cho màn hình nhỏ hơn */
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .blog-list {
+    grid-template-columns: 1fr;
+    /* Hiển thị 1 cột cho các thiết bị có kích thước nhỏ hơn */
+  }
+
+  .search-container input[type="text"] {
+    width: 100%;
+    /* Chiều rộng input đầy đủ cho các thiết bị nhỏ */
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
+
+.blog-img-search {
+  width: 200px;
+  /* Điều chỉnh kích thước hình ảnh tìm kiếm */
+  height: auto;
+  /* Đảm bảo tỉ lệ khung hình được bảo tồn */
+  margin-left: 10px;
+}
+
+.blog-post-title-search {
+  padding-left: 52px;
+}
+
+.single-result-img {
+  width: 200px;
+  /* Điều chỉnh kích thước hình ảnh tìm kiếm */
+  height: auto;
+  /* Đảm bảo tỉ lệ khung hình được bảo tồn */
+  margin-left: 10px;
+}
+
+.single-result-title {
+  padding-right: 900px;
+}

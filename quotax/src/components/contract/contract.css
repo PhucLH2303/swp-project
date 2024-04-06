@@ -1,0 +1,43 @@
+/* src/components/NewContractForm.css */
+
+.new-contract-form-container {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contract-form .form-group {
+    margin-bottom: 15px;
+}
+
+.contract-form label {
+    display: block;
+    font-weight: bold;
+}
+
+.contract-form .form-control {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contract-form .submit-btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contract-form .submit-btn:hover {
+    background-color: #0056b3;
+}

@@ -1,0 +1,17 @@
+/* profileStyles.css */
+
+.user-profile-container {
+    margin-top: 30px;
+}
+
+.card-header {
+    background-color: #007bff;
+    color: white;
+}
+
+.card-body {
+    padding: 20px;
+    box-shadow: 0 10px 30px rgba(13, 13, 13, 0.1);
+}
+
+/* Add any additional styles you want */

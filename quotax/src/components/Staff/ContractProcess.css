@@ -1,0 +1,26 @@
+/* ContractProcess.css */
+
+.contract-process-container {
+    margin: 20px;
+}
+
+.contract-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contract-item {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.contract-info {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.review-checkbox {
+    margin-left: 10px;
+}

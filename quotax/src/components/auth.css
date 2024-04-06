@@ -1,0 +1,35 @@
+/* auth.css */
+.auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.auth-form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.auth-form .input-field {
+    margin-bottom: 20px;
+}
+
+.auth-form .btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.auth-form .login-btn {
+    background: #3498db;
+    color: #fff;
+}
+
+.auth-form .register-btn {
+    background: #2ecc71;
+    color: #fff;
+}
